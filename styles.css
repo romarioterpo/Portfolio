@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body {
+  background-image: url(./images/image.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+.card-deck {
+  margin: 0;
+  padding: 2rem;
+}
+
+.card {
+  border: 3px #c8d0f3 solid;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(252, 250, 238);
+  font-size: 4rem;
+  padding: 50px;
+}
+
+.btn {
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+  padding: 0.65rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.75);
+}
+
+.card:hover {
+  -webkit-transform: scale(0.99);
+  -ms-transform: scale(0.99);
+  transform: scale(0.99);
+}
