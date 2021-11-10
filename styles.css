@@ -55,5 +55,9 @@ h1 {
     overflow-y: auto;
     width: auto;
     height: auto;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 }
