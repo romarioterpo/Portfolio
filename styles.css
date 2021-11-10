@@ -49,3 +49,11 @@ h1 {
   -ms-transform: scale(0.99);
   transform: scale(0.99);
 }
+
+@media (max-width: 576px) {
+  body {
+    overflow-y: auto;
+    width: auto;
+    height: auto;
+  }
+}
